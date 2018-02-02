@@ -1,6 +1,6 @@
 .DS_Store
 docs/
-mirador*/
+mirador-2.1.2/
 var/lib/tomcat7/*
 !var/lib/tomcat7/webapps
 var/lib/tomcat7/webapps/*
