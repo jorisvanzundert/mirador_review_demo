@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Deploying Mirador demo resources..."
+cp /srv/remote/usr/local/bin/start_mirador_demo /usr/local/bin/
+cp -r /srv/remote/media/ /
+cp /srv/remote/var/lib/tomcat7/webapps/simpleAnnotationStore/index.html /var/lib/tomcat7/webapps/simpleAnnotationStore/
+cp /srv/remote/var/lib/tomcat7/webapps/simpleAnnotationStore/kitten.jpg /var/lib/tomcat7/webapps/simpleAnnotationStore/
+cp -r /srv/remote/var/local/SimpleTranscriptionServer/public/ /var/local/SimpleTranscriptionServer/
+cp -r /srv/remote/var/local/SimpleTranscriptionServer/views/ /var/local/SimpleTranscriptionServer/
+cp -r /srv/remote/var/www/html/ /var/www/
+echo "Done. Start demo by typing 'start_mirador_demo'"

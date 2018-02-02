@@ -1,0 +1,16 @@
+.folio {
+  font-size: 1em;
+  font-family: serif;
+  background-color: #fffdf7;
+  padding: 6pt;
+}
+
+.folio .title {
+  font-size: 120%;
+  font-weight: bold;
+  color: #e82542;
+  margin-bottom: 10pt;
+}
+
+.folio .column_text {
+}

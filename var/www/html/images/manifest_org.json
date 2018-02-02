@@ -1,0 +1,149 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:9999/reynaert_fragment",
+  "@type": "sc:Manifest",
+  "label": "First four folios of Van den Vos Reynaerde",
+  "thumbnail": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=388_192v.tif/full/!200,200/0/default.jpg",
+  "description":"First four folios of the Middle Dutch novel Van den Vos Reynaerde for use with Mirador testing/reviewing. This manifest and resources created by Joris J. van Zundert. The novel is available in English as well: http://press.uchicago.edu/ucp/books/book/distributed/O/bo8927638.html. The images have been digitally enlarged from their original 1500x2319 px dimension to 3000x4638 using Gimp (using 'Sinc (Lanczos3)' interpolation)",
+  "license":"https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+  "attribution":"Provided by Württembergische Landesbibliothek (http://www.wlb-stuttgart.de/)",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "http://localhost:9999/reynaert_fragment/sequences",
+      "viewingHint": "paged",
+      "canvases": [
+        {
+          "@id": "http://localhost:9999/reynaert_fragment/folios/folio_192r_placeholder",
+          "@type": "sc:Canvas",
+          "label": "Folio 192 recto placeholder",
+          "width": 3000,
+          "height": 4638,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=387_192r_placeholder.tif/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3000,
+                "height": 4638,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=387_192r_placeholder.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://localhost:9999/reynaert_fragment/folios/folio_192r_placeholder"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:9999/reynaert_fragment/folios/folio_192v",
+          "@type": "sc:Canvas",
+          "label": "Folio 192 verso",
+          "width": 3000,
+          "height": 4638,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=388_192v.tif/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3000,
+                "height": 4638,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=388_192v.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://localhost:9999/reynaert_fragment/folios/folio_192v"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:9999/reynaert_fragment/folios/folio_193r",
+          "@type": "sc:Canvas",
+          "label": "Folio 193 recto",
+          "width": 3000,
+          "height": 4638,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=389_193r.tif/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3000,
+                "height": 4638,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=389_193r.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://localhost:9999/reynaert_fragment/folios/folio_193r"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:9999/reynaert_fragment/folios/folio_193v",
+          "@type": "sc:Canvas",
+          "label": "Folio 193 verso",
+          "width": 3000,
+          "height": 4638,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=390_193v.tif/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3000,
+                "height": 4638,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=390_193v.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://localhost:9999/reynaert_fragment/folios/folio_193v"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:9999/reynaert_fragment/folios/folio_194r",
+          "@type": "sc:Canvas",
+          "label": "Folio 194 recto",
+          "width": 3000,
+          "height": 4638,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=391_194r.tif/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3000,
+                "height": 4638,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:9999/iipsrv/iipsrv.fcgi?IIIF=391_194r.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://localhost:9999/reynaert_fragment/folios/folio_194r"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

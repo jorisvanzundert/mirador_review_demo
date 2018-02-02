@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Starting Mirador demo servers..."
+service apache2 start &> /dev/null
+service tomcat7 start &> /dev/null
+cd /var/local/SimpleTranscriptionServer
+rackup -p 8088 -E production -D
+

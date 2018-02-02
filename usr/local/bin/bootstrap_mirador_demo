@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Copying deployment script from remote..."
+cp /srv/remote/usr/local/bin/pull_mirador_demo /usr/local/bin/pull_mirador_demo
+pull_mirador_demo

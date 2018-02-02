@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei2.dtd" [
+  <!ENTITY rtc 'Adaption to titlecase convention in 2017'>
+  <!ENTITY rcc 'Adaption to capitalization convention in 2017'>
+]>
+<TEI.2 version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text">
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">Van den Vos Reynaerde (fragment)</title>
+        <title level="m" type="sub">A Machine Readable Transcription</title>
+        <author>Willem</author>
+        <editor>Joris J. van Zundert</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Joris J. van Zundert</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>Wednesday 5 July 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>The Huygens Institute for the History of the Netherlands</distributor>
+        <address>
+          <name type="institution">The Huygens Institute for the History of the Netherlands</name>
+          <street>Oudezijds Achterburgwal 185</street>
+          <postCode>1012 DK</postCode>
+          <name type="city">Amsterdam</name>
+          <name type="country">The Netherlands</name>
+        </address>
+        <address>
+          <name type="institution">The Huygens Institute for the History of the Netherlands</name>
+          <postBox>P.O. Box 10855</postBox>
+          <postCode>1001 EW</postCode>
+          <name type="city">Amsterdam</name>
+          <name type="country">The Netherlands</name>
+        </address>
+        <availability>
+          <p>CC BY-SA 3.0
+            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.en">(https://creativecommons.org/licenses/by-sa/3.0/deed.en)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Willem</author>
+          <title>Van den Vos Reynaerde</title>
+          <date cert="medium" notBefore="1175" notAfter="1380">13th century</date>
+        </bibl>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Stuttgart</settlement>
+            <repository>Württembergische Landesbibliothek Stuttgart</repository>
+            <idno>Cod.poet.et.phil.fol.22</idno>
+          </msIdentifier>
+          <physDesc>
+            <p>
+              <material>Parchment</material>
+            </p>
+          </physDesc>
+          <history>
+            <p>Written in
+              <origPlace>East Flanders</origPlace>in the<origDate>first quarter 15th cent.</origDate>
+            </p>
+          </history>
+        </msDesc>
+        <listWit>
+          <witness xml:id="Comburg">Württembergische Landesbibliothek Stuttgart (Cod.poet.et.phil.fol.22)</witness>
+          <witness xml:id="Dycksche">Universitäts- und Landesbibliothek Münster (N. R. 381)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2017-07-04" who="Joris J van Zundert">Transcribed</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="folio" n="192r">
+        <div type="part" n="1_0">
+          <l>(Transcription of 192r not implemented.)</l>
+        </div>
+      </div>
+      <div type="folio" n="192v">
+        <head>
+          <title>
+            <choice>
+              <orig>van den vos reynaerde</orig>
+              <reg reason="&rtc;">Van den Vos Reynaerde</reg>
+            </choice>
+          </title>
+        </head>
+        <div type="part" n="1_1">
+          <l><c facs="http://localhost:9090/simpleAnnotationStore/annotation/1499201214016">W</c>illem die
+            <subst>
+              <del>
+                <choice>
+                  <orig>m</orig>
+                  <reg reason="&rcc;">M</reg>
+                </choice>adocke</del>
+              <add>vele bouke</add>
+            </subst>
+            maecte</l>
+          <l facs="http://localhost:9090/simpleAnnotationStore/annotation/1499201102798">Daer hi dicken o<choice>
+              <abbr>m̄</abbr>
+              <expan>mm</expan>
+            </choice>e waecte</l>
+          <l facs="http://localhost:9090/simpleAnnotationStore/annotation/1499201124745">Hem vernoyde so haerde</l>
+          <l facs="http://localhost:9090/simpleAnnotationStore/annotation/1499201200639">Dat die avonture van
+            <choice>
+              <orig>r</orig>
+              <reg reason="&rcc;">R</reg>
+            </choice>eynaerde</l>
+          <l facs="http://localhost:9090/simpleAnnotationStore/annotation/1499201227082">In
+            <choice>
+              <orig>d</orig>
+              <reg reason="&rcc;">D</reg>
+            </choice>ietsche onghemaket blev<choice>
+              <abbr>ē</abbr>
+              <expan>en</expan>
+            </choice>
+          </l>
+          <l facs="http://localhost:9090/simpleAnnotationStore/annotation/1499201439941">Die
+            <app>
+              <lem wit="Dycksche">Arnout</lem>
+              <rdg wit="Comburg">willem</rdg>
+            </app>
+            niet hevet vulscrev<choice>
+              <abbr>ē</abbr>
+              <expan>en</expan>
+            </choice>
+          </l>
+        </div>
+      </div>
+      <div type="folio" n="193r">
+        <div type="part" n="1_2">
+          <l>(Transcription of 193r not implemented.)</l>
+        </div>
+      </div>
+      <div type="folio" n="193v">
+        <div type="part" n="1_3">
+          <l>(Transcription of 193v not implemented.)</l>
+        </div>
+      </div>
+      <div type="folio" n="194r">
+        <div type="part" n="1_4">
+          <l>(Transcription of 194r not implemented.)</l>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI.2>

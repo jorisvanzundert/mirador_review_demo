@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+  <title>Mirador Viewer</title>
+  <style type="text/css">
+    body { padding: 0; margin: 0; overflow: hidden;}
+    #viewer {width: 100%; height: 100%; position: fixed; }
+  </style>
+</head>
+<body>
+  <style type="text/css">#tei_viewer {color: green}</style>
+  <div id="viewer"></div>
+  <script src="mirador/mirador.js"></script>
+  <script src="text_viewer/text_viewer.js"></script>
+  <script type="text/javascript">
+
+    $(function() {
+      mirador = Mirador({
+        "id": "viewer",
+        "mainMenuSettings" : {
+          'show' : false
+        },
+        "data": [
+          { "manifestUri": "http://localhost:9999/images/manifest.json", "location": "My Repository"}
+        ],
+        windowObjects: [{
+          "loadedManifest": "http://localhost:9999/images/manifest.json",
+          "canvasID": "http://localhost:9999/reynaert_fragment/folios/folio_192v",
+          "viewType": "ImageView",
+          "displayLayout": false,
+          "bottomPanel" : false,
+          "sidePanel" : false,
+          "canvasControls": {
+            "annotations" : {
+              "annotationLayer" : false
+            },
+            "imageManipulation" : {
+              "manipulationLayer" : false
+            }
+          }
+        }],
+        "annotationEndpoint": {
+          "name": "Simple Annotation Store Endpoint",
+          "module": "SimpleASEndpoint",
+          "options": {
+            "url": "http://localhost:9090/simpleAnnotationStore/annotation"
+          }
+        }
+      });
+    });
+
+  </script>
+</body>
+</html>

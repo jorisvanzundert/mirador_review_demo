@@ -1,0 +1,13 @@
+.DS_Store
+docs/
+mirador*/
+var/lib/tomcat7/*
+!var/lib/tomcat7webapps
+var/lib/tomcat7/webapps/*
+!var/lib/tomcat7/webapps/simpleAnnotationStore
+var/lib/tomcat7/webapps/simpleAnnotationStore/*
+!var/lib/tomcat7/webapps/simpleAnnotationStore/index.html
+!var/lib/tomcat7/webapps/simpleAnnotationStore/kitten.jpg
+var/local/SimpleTranscriptionServer/log
+var/www/fcgi-bin/
+.travis.yml
